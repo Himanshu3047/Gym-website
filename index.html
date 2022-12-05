@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+<link rel = "stylesheet" href="css/style.css">
+<style>
+body{
+    font-family: 'Baloo 2', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/jim.jpg');
+    height: 720px;
+
+}
+.left{
+    display: inline-block;
+border: 2px solid gray;
+position: absolute;
+left: 0px;
+top:2px;
+}
+.mid{
+    display:block;
+    width:40%;
+    margin: 0px auto;
+
+}
+.right{
+    position :absolute;
+    right :34px;
+    top:16px;
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font: size 25px;
+}
+.navbar li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 0px 16px;
+}
+    .navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+.left img{
+    width: 130px;
+    color: black;
+
+}
+.btn{
+    
+    background-color:black;
+    color:white;
+    margin: 0px 9px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container{
+    margin: 100px 36px;
+    padding: 47px 0px;
+    width:43%;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    margin: 7px 95px;
+    padding: 4px 70px;
+}
+.container button{
+    display: block;
+    width: 21%;
+    margin:4px 95px;
+}
+</style> 
+<body>
+    <header class="header">
+        <div class="left">
+                <img src="img/logo.png" alt="">
+                <div style=color:turquoise>***Bellygym***</div>
+            </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active"><b>Home</b></a></li>
+                <li> <a href="#"><b>About Us</b></a></li>
+                <li> <a href="#"><b>Fitness Center</b></a></li>
+                <li> <a href="#"><b>Contact us</b></a></li>
+            </ul>
+        </div>
+        <div class="right">
+        <button class="btn"><b>Call Us Now</b></button><button class="btn"><b>Email Us</b></button>
+        </div>
+    </header>
+    <div class="container">
+    <h1>Join The Best Gym Of Kanpur Now</h1>
+    <form action="noaction.php">
+    <div class="form-group">
+        <input type="text" name=""placeholder="Enter Your Name">
+    </div>
+    <div class="form-group">
+        <input type="text" name=""placeholder="Enter Your Age">
+    </div>
+    <div class="form-group">
+        <input type="text" name=""placeholder="Enter Your Mobile Number">
+    </div>
+    <div class="form-group">
+        <input type="text" name=""placeholder="Enter Your Email">
+    </div>
+    <div class="form-group">
+        <input type="text" name=""placeholder="Enter Your Gender">
+    </div>
+    <div class="form-group">
+        <input type="text" name=""placeholder="Enter Your Locality">
+    </div>
+    <div>
+        <button class="btn">Submit</button>
+    </div>
+</form>
+
+    </div>
+</body>
+</html>
